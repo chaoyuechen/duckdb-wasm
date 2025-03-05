@@ -1,4 +1,4 @@
-FROM ubuntu:23.10
+FROM ubuntu:focal
 
 RUN apt-get update -qq \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
